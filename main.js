@@ -52,7 +52,6 @@
       } else {
         turn = "x";
       }
-
       // نمایش نوبت بازیکن
       display.innerHTML = "نوبت بازیکن <span class='display " + turn + "'>" + turn.toUpperCase() + "</span>";
     }
